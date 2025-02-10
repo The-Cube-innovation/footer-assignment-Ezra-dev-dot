@@ -1,6 +1,6 @@
 .footer1{
     display: flex;
-    background-color: black;
+    background-color: gray;
     color: aliceblue;
 }
 .footer-container{
@@ -12,7 +12,11 @@
 }
 @media screen and(max-width: 780px) {
 .footer-container{
+    gap: 600px;
     display: inline;
     text-align: center;
 }
+}
+body{
+    color: whitesmoke;
 }
