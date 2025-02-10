@@ -1,0 +1,18 @@
+.footer1{
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+}
+.footer-container{
+    display: flex;
+    gap: 230px;
+}
+.socialicons{
+    color: orangered;
+}
+@media screen and(max-width: 780px) {
+.footer-container{
+    display: inline;
+    text-align: center;
+}
+}
